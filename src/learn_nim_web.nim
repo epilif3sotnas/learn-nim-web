@@ -1,8 +1,10 @@
 # internal
-import methods/default
+import
+  ./methods/default
 
 # external
-import prologue
+import
+  prologue
 
 
 proc main() =

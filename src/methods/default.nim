@@ -1,8 +1,10 @@
-# nim
-import std/strformat
+# std
+import
+    std/strformat
 
 # external
-import prologue
+import
+    prologue
 
 
 proc get_method*(ctx: Context) {.async.} =
